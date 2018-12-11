@@ -8,5 +8,14 @@
 </head>
 <body>
   
+  <h1>List of terms</h1>
+
+  <a href="/">Back to home page</a>
+  {{#term}}
+<ul>
+  <a href="/terms/{{id}}"><li>{{name}}</li></a>
+  <li>{{definition}}</li>
+</ul>
+  {{/term}}
 </body>
-</html>
+</html> 
